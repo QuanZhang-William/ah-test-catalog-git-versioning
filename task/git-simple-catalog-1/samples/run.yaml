@@ -1,0 +1,7 @@
+apiVersion: tekton.dev/v1beta1
+kind: TaskRun
+metadata:
+  name: simple-task-run-
+spec:
+  taskRef:
+    name: git-simple-1

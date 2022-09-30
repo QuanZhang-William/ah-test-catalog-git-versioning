@@ -3,7 +3,7 @@ kind: Task
 metadata:
   name: git-simple-2
   labels:
-    app.kubernetes.io/version: "0.4"
+    app.kubernetes.io/version: "0.3"
   annotations:
     tekton.dev/pipelines.minVersion: "0.29.0"
     tekton.dev/categories: Git
@@ -12,11 +12,10 @@ metadata:
     tekton.dev/platforms: "linux/amd64,linux/s390x,linux/ppc64le,linux/arm64"
 spec:
   description: >-
-    These Tasks are Git tasks to work with repositories used by other tasks
-    in your Pipeline.
+    This is a test task following git-based versioning
   steps:
     - name: echo
       image: alpine
       script: |
         #!/bin/sh
-        echo "Hello World git-simple-2 V4"   
+        echo "Hello World git-simple-2 V3"   
