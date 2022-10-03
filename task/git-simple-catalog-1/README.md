@@ -1,1 +1,1 @@
-git-simple-catalog-1 readme v4
+git-simple-catalog-1 readme v5
