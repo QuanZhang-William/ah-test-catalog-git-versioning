@@ -10,6 +10,9 @@ metadata:
     tekton.dev/tags: git
     tekton.dev/displayName: "simple 1"
     tekton.dev/platforms: "linux/amd64,linux/s390x,linux/ppc64le,linux/arm64"
+    tekton.dev/signature: |
+    fingerprint: MEQCIHhFC480mv7mh/6dxAlp/mvuvGXanuSghMsT+iBhWxt5AiBDvHv8sfKjJ3Ozrzvp+cjr30AOx1SPQDCcaJjlpAoVrA==
+    url: anything.com 
 spec:
   description: >-
     This is a test task following git-based versioning
